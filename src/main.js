@@ -12,6 +12,9 @@ import { defineAsyncComponent } from 'vue';
 const colorBtn = defineAsyncComponent(() => import('@components/BaseComponents/colorBtn.vue'))
 const plainBtn = defineAsyncComponent(() => import('@components/BaseComponents/plainBtn.vue'))
 const receivable = defineAsyncComponent(() => import('@components/BaseComponents/receivable.vue'))
+const payable = defineAsyncComponent(() => import('@components/BaseComponents/payable.vue'))
+const payment = defineAsyncComponent(() => import('@components/BaseComponents/payment.vue'))
+const dispute = defineAsyncComponent(() => import('@components/BaseComponents/dispute.vue'))
 const app = createApp(App);
   app.use(router);
   app.use(vueAwesomeSidebar);
@@ -20,8 +23,11 @@ const app = createApp(App);
   .component('colorBtn', colorBtn)
   .component('plainBtn', plainBtn)
   .component('receivable', receivable)
+  .component('payable', payable)
+  .component('payment', payment)
+  .component('dispute', dispute)
 
-  app.config.globalProperties.$globalColorVariable = '#7545FF'
+  app.config.globalProperties.$globalColorVariable = '#754555'
 
 router.isReady().then(() => {
   app.mount("#app");

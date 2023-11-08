@@ -1,12 +1,17 @@
 <template>
   <div>
     <h1>{{ content }}</h1>
-    <colorBtn name="Hello" id="23"  :disabled="false" @saveClick="saveChildData" />
+    <colorBtn name="Submit" id="23"  :disabled="false" @saveClick="saveChildData" />
     <colorBtn name="Hello"   :disabled="false" @saveClick="saveChildData" />
 
     <plainBtn name="Cancel" id="25" :disabled="true" @saveClick="saveChildData"/>
 
     <receivable/>
+    <payable/>
+    <payment/>
+    <dispute/>
+
+    <component :is="category"></component>
     <hr>
     <div class="alert alert-danger mt-3" v-if="danger">
       Volume is grate than usual limit...
@@ -28,7 +33,7 @@ import { ref,watch  } from 'vue';
 const content = ref('Company page');
 const counter = ref(2)
 const danger = ref(false)
-
+const category = 'payable'
 watch(counter, (newValue, oldValue) => {
   if(newValue == 8 && newValue > oldValue) {
     danger.value = true;

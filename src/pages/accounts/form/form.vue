@@ -20,12 +20,13 @@ import { inject, reactive, ref, provide, watch } from 'vue'
 import _ from 'lodash'
 const btnDisable = ref(true)
 const getInput = reactive({
-  name: 'Abc',
+  name: 'Bakuun',
   email: 'example@example.com',
   surname: 'Def',
   address: 'Pune'
 })
 const error = reactive({ email: null, name: null, surname: null, address: null })
+
 watch(getInput,_.debounce( (input) => {
   error.email = error.name = error.surname = null
 
