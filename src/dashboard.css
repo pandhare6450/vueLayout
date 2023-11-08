@@ -1,0 +1,1788 @@
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper
+    {
+      background-color: #f7fafc;
+    }
+/* .dashboard_main .db-SideNav-navSections{position: static; user-select: text; -webkit-user-select:text;} */
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section
+  {
+    padding: 1% 2% 1% 2%;
+  }
+.dashboard_main .cus_text
+  {
+       font-weight: normal; color:  #3c4257;
+  }
+
+  .dashboard_main .db-World-wrapper .accordion .link 
+   {
+    cursor: pointer;
+    display: block;
+    padding: 5px 14px 5px 42px;
+    color: #3c4257;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .dashboard_main .db-World-wrapper .accordion li:last-child .link 
+    { 
+      border-bottom: 0;
+     }
+  .dashboard_main .db-World-wrapper .accordion li img 
+    {
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      font-size: 18px;
+      color: #595959;
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      height: 13px;
+      width: 13px;
+    }
+    .db-World-sideNavContainer{background-color: #f7fafc;}
+  .dashboard_main .db-World-wrapper .accordion li i.fa-chevron-down 
+    {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+    }
+  .dashboard_main .db-World-wrapper .accordion li.open .link 
+   { 
+     color: #001c55;
+   }
+  .dashboard_main .db-World-wrapper .accordion li.open i 
+    {
+      color: #001c55; 
+    }
+  .dashboard_main .db-World-wrapper .accordion li.open i.fa-chevron-down 
+    {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  /*** Submenu -----------------------------*/
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-sideNavContainer .db-SideNav-container .accordion .submenu 
+    {
+    display: none;
+    }
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-sideNavContainer .db-SideNav-container .accordion .submenu a 
+    {
+      cursor: pointer;
+      display: block;
+      padding: 5px 14px 5px 42px;
+      color: #3c4257;
+      font-size: 14px;
+      position: relative;
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      font-weight: 400;
+      font-size: 14px;
+   }
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-sideNavContainer .db-SideNav-container .accordion .submenu a:hover 
+    {
+      color:#001c55;
+    }
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-sideNavContainer .db-SideNav-container .accordion .link .active_img
+    {
+      visibility: hidden;
+    }
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-sideNavContainer .db-SideNav-container .accordion .open .active_img{visibility: visible;}
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table
+    {
+      width: 100%;
+      margin-top: 2%;
+    }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tr
+      {
+        border-width: 1px 0 0 0;
+        border-bottom: 1px solid #ddd;
+        height: 36px;
+      }
+      .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr:hover
+      {
+        background-color: #f7fafc;
+        cursor: pointer;
+      }
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tr td
+    {
+      line-height: 20px;
+      font-weight: 500;
+      font-size: 14px;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+      font-feature-settings: "pnum";
+      font-variant: proportional-nums;
+      color: #3C4257;
+    }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tr th
+      {font-size: 11px; font-weight: 500;} 
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+      {
+        background-color: #3674bf;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+      {
+        background-color: #3674bf;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--not_validated 
+      {
+        background-color: #3d4eac;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--draft 
+      {
+        background-color: #e3e8ee;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--live 
+      {
+        background-color: #7df19b;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--red 
+      {
+        background-color: #d44848;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--set_certification 
+      {
+        background-color: #dd00c2;
+      }
+    .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .partner_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+      {
+        background-color: #3674bf;
+      }
+    .Text-color--set_pass
+      {
+        color: #fff;
+      }
+      .Icon-color--white{color: white;}
+
+      .box_filter{display: none; }
+
+      .filter_tab .Box-root label{vertical-align: middle;}
+      .filter_tab .Box-root input{vertical-align: middle;}
+/* 
+input[type="checkbox"] {
+        background: #001c55  !important;
+        border: #001c55 1px solid;
+        margin-right: 5px;
+     } */
+.filter_popover_btn{display: none;}
+.filter_btn:focus
+  {
+    box-shadow: 0px 0px 2px 3px rgb(154 207 222);
+  }
+  .datepicker-container::before, .datepicker-container::after {
+    border: 5px solid transparent;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.manage_partner_section .manage_partner_row{display: flex; width: 100%;}
+.manage_partner_section .manage_partner_col{ width:33%; margin: 2%; }
+
+
+
+
+.navigate_sub_point_color span{color: #001c55; font-size: 16px;}
+
+
+ /* Status button color code */
+.manage_partner_row .manage_partner_col .cs_btn_bg_validate{background-color: #7df19b;}
+.manage_partner_row .manage_partner_col .cs_btn_bg_draft{background-color: #e3e8ee;}
+.manage_partner_row .manage_partner_col .cs_btn_bg_development{background-color: #3674bf;}
+.manage_partner_row .manage_partner_col .cs_btn_bg_certification{background-color: #dd00c2;}
+.manage_partner_row .manage_partner_col .cs_btn_bg_live{background-color: #7df19b;}
+.manage_partner_row .manage_partner_col .cs_btn_bg_blocked{background-color: #d44848 ;}
+.upadte_status_btn_row .Box-root{margin-right: 5px;}
+
+
+ /* Agreement button color code */
+.agreement_btn_row .cs_btn_bg_generate{background-color: #3674bf;}
+.agreement_btn_row .cs_btn_bg_download{background-color: #3d4eac;}
+.agreement_btn_row .cs_btn_bg_view{background-color: #001c55;}
+.agreement_btn_row .cs_btn_bg_delete{background-color: #d44848;}
+.agreement_btn_row .cs_btn_bg_share{background-color: #e3e8ee;}
+.agreement_btn_row .Box-root{margin-right: 5px;}
+
+.cs_btn_bg_reset{background-color: #d44848;}
+
+
+
+
+
+
+
+/* 
+input slider toogle button */
+
+
+.manage_partner_col input[type="checkbox"], .team_status input[type="checkbox"], .setpayable input[type="checkbox"],
+.setreceivable input[type="checkbox"], .setterms input[type="checkbox"], .settermspaydet input[type="checkbox"], 
+.pdsettax input[type="checkbox"], .pdsettaxdet input[type="checkbox"], .pdsetbranch input[type="checkbox"],
+.pdsmodel input[type="checkbox"], .pdsetmodeldet input[type="checkbox"], .pdadpay input[type="checkbox"],
+.pdapdet .pdapdet1  input[type="checkbox"], .pdapdet1  input[type="checkbox"], .pdprofile input[type="checkbox"],
+.pdadfc input[type="checkbox"], .pdadfcdet .pdadfcdet_div input[type="checkbox"], .pslp1 .pslp1_tbl input[type="checkbox"]{
+  content: url('../img/iconfinder-icon.svg');
+  display: block;
+  background-color: transparent !important;
+  border: none;
+  height: 27px;
+  width: 21px;
+  
+}
+.manage_partner_col input[type="checkbox"]:checked,  .team_status input[type="checkbox"]:checked, 
+.setpayable input[type="checkbox"]:checked, .setreceivable input[type="checkbox"]:checked, 
+.setterms input[type="checkbox"]:checked, .settermspaydet input[type="checkbox"]:checked, 
+.pdsettax input[type="checkbox"]:checked, .pdsettaxdet input[type="checkbox"]:checked,
+.pdsetbranch input[type="checkbox"]:checked, .pdsmodel input[type="checkbox"]:checked, 
+.pdsetmodeldet input[type="checkbox"]:checked, .pdadpay input[type="checkbox"]:checked,
+.pdapdet .pdapdet1 input[type="checkbox"]:checked, .pdapdet1 input[type="checkbox"]:checked, 
+.pdprofile input[type="checkbox"]:checked, .pdadfc input[type="checkbox"]:checked, 
+.pdadfcdet .pdadfcdet_div input[type="checkbox"]:checked, .pslp1 .pslp1_tbl input[type="checkbox"]:checked{
+  content: url('../img/iconfinder-deactive.svg');
+  background-color: transparent !important;
+  border: none;
+  height: 27px;
+  width: 21px;
+  position:relative;
+  top: -14px;
+}
+.manage_partner_col .native-hidden, .team_status .native-hidden, .setpayable .native-hidden, 
+.setreceivable .native-hidden, .setterms .native-hidden, .settermspaydet .native-hidden, 
+.pdsettax .native-hidden, .pdsettaxdet .native-hidden, .pdsetbranch .native-hidden, 
+.pdsmodel .native-hidden, .pdsetmodeldet .native-hidden, .pdadpay .native-hidden,
+.pdapdet .pdapdet1 .native-hidden, .pdapdet1 .native-hidden, .pdprofile .native-hidden,
+.pdadfc .native-hidden, .pdadfcdet .pdadfcdet_div .native-hidden, .pslp1 .pslp1_tbl .native-hidden{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent !important;
+  border: none;
+}
+
+.manage_partner_section .account_details .commercial a{
+  border: 1px solid white;
+}
+.manage_partner_section .account_details .commercial a:focus {
+  border: 1px solid #001c55;
+}
+
+.manage_partner_section .account_details .integration_col a{
+  border: 1px solid white;
+}
+.manage_partner_section .account_details .integration_col a:focus {
+  border: 1px solid #001c55;
+}
+
+
+.ContentHeader{min-height: 20px;}
+
+
+
+.account_details .manage_partner_col input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+  border: 1px solid rgb(0 28 85);
+  border-radius: 4px;
+}
+
+
+
+/* provider link css */
+
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table
+{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tr
+  {
+    border-width: 1px 0 0 0;
+    border-bottom: 1px solid #ddd;
+    height: 36px;
+  }
+
+  .dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr:hover
+  {
+    background-color: #f7fafc;
+    cursor: pointer;
+  }
+
+
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tr td
+{
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+  font-feature-settings: "pnum";
+  font-variant: proportional-nums;
+  color: #3C4257;
+}
+
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tr th
+  {font-size: 11px; font-weight: 500;} 
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+  {
+    background-color: #3674bf;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+  {
+    background-color: #3674bf;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--not_validated 
+  {
+    background-color: #3d4eac;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--draft 
+  {
+    background-color: #e3e8ee;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--live 
+  {
+    background-color: #7df19b;
+  }
+  
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--red 
+  {
+    background-color: #d44848;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--set_certification 
+  {
+    background-color: #dd00c2;
+  }
+.dashboard_main .db-World-wrapper .db-World-scrollWrapper .db-World-mainWrapper .db-World-mainPane .db-World-contentPane .page_section .provider_tab .partners_table tbody tr td .Box-root.Box-background--set_pass 
+  {
+    background-color: #3674bf;
+  }
+
+.manage_provider_section .manage_provider_row{display: flex; width: 100%;}
+.manage_provider_section .manage_partner_col{ width:50%; margin: 2%; }
+.manage_provider_section .manage_provider_row .provider_business_model textarea
+    {
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+      border-color: #dddee2;
+      border: none;
+      border-radius: 5px;
+      padding: 0px 17px 0px 17px;
+    }
+ 
+    .manage_provider_row > .graduate_pricing_room{width: 100%;}
+    
+    .manage_provider_row > .graduate_pricing_room > th{background-color: #f0f4f7; padding: 8px;}
+
+    .manage_provider_row > .graduate_pricing_room > tr > td:first-child
+    {
+      background-color: #f0f4f7;
+      font-size: 11px;
+    }
+
+    .graduate_pricing_room{width: 96%;}
+
+
+    .graduate_pricing_room {
+      border-collapse: collapse;
+    }
+    
+    .graduate_pricing_room .graduate_pricing_room_th, .graduate_pricing_room_td {
+      border: 1px solid #e0e5e9;
+      padding: 0.5rem;
+      text-align: left;
+      padding: 6px 10px 7px 12px;
+    }
+
+    .graduate_pricing_room .graduate_pricing_room_th
+      {
+        background-color:  #f0f4f7;
+        border: 1px solid #e0e5e9;
+        padding: 0.5rem;
+        text-align: left;
+        color: rgb(60, 66, 87);
+        font-size: 11px;
+        font-weight: 500;
+        padding: 6px 10px 7px 12px;
+      }
+
+      .manage_provider_row .manage_partner_col .cs_btn_bg_development {
+        background-color: #3674bf;
+    }
+
+    .room_div .cs_btn_bg_delete {
+      background-color: #d44848 ;
+    }
+
+    .room_div .cs_btn_bg_add_new_price {
+      background-color: #e3e8ee ;
+      color: #4f566b;
+    }
+
+    .red_doc_business_model_content .room_div .graduate_pricing_room .text_disabled{color: #b8b8b8;}
+
+    .red_doc_business_model_content .room_div{position: relative;}
+
+
+
+  /* popup modal css */
+  .modal_add_new_user,
+  .modal-box {
+    z-index: 900;
+  }
+/*   
+  .modal-sandbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+  } */
+  
+  .modal_add_new_user {
+    display: none; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #d0d7de75;
+    background: #d0d7dec2;
+  }
+  
+  .modal-box {
+    position: relative;
+    width: 587px;
+    margin: 59px auto;
+    animation-name: modalbox;
+    animation-duration: .4s;
+    animation-timing-function: cubic-bezier(0,0,.3,1.6);
+  }
+  
+  
+  .modal-body {
+    background:white;
+    width: 587px;
+    margin: auto;
+  }
+
+  .team_table .DataTable-cell:first-child, .DataTableHead-cell:first-child{padding-left: 0;}
+  .team_table .DataTableHead-cell{background-color: transparent;}
+
+  
+
+   .bg_radio_effect{
+    background-color: rgb(255, 255, 255);
+    height: 14px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    min-width: 14px; width: 14px; margin-top: -1.38px;
+    transform: translateY(2.1px);
+   }
+
+
+
+   /* add new user radio button css */
+   .newuser {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-width: 150px;
+    margin: auto;
+    
+  }
+  
+  /* Hide the browser's default radio button */
+  .newuser input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+       position: absolute;
+      top: 2px;
+      left: 9px;
+      height: 25px;
+      width: 25px;
+      background-color: red;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255);
+      height: 14px;
+      box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+      min-width: 14px;
+      width: 14px;
+      margin-top: -1.38px;
+      transform: translateY(2.1px);
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .newuser input:checked ~ .checkmark {
+    background-color: #001c55;
+    padding: 8px;
+    
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .newuser input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .newuser .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+
+
+  .setting_account_setting input[type=text]:focus {
+    box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+    border: 1px solid rgb(0 28 85);
+    border-radius: 4px;
+  
+}
+
+.setting_account_setting input[type=text]
+{
+  height: 28px;
+  line-height: 28px;
+}
+
+
+.setting_account_setting .bs-Fieldset-label{line-height: 17px;}
+
+
+/* Branding section color picker css */
+
+.color_picker_branding
+   {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px;
+    border-radius: 3px; 
+  }
+input.color_picker_branding {
+  display: block;
+  width: 50%;
+  float: left;
+  height: 80px;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+input.color_picker_branding [type="text"] {
+  border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+input.color_picker_branding [type="text"]:invalid{
+     border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.row_branding{display: flex; width: 100%;}
+.row_branding .col_one{width: 28%;}
+.row_branding .col_two{padding-right: 3%;}
+.row_branding .col_three{ width: 262px;}
+.border_right{ border-right: 1px solid rgb(227, 232, 238);}
+
+
+
+input.color_picker_inp[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  background-color: #0074d4;
+}
+input.color_picker_inp[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input.color_picker_inp[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+
+.page_section_marketing .market_position_row {display: flex;}
+.page_section_marketing .market_position_col_one {width: 25%;}
+.page_section_marketing .market_position_col_two {width: 30%; padding-left: 9%;}
+.page_section_marketing .market_position_col_three {width: 30%; padding-left: 13%;}
+.page_section_marketing .market_position_col_one .padding_three {padding: 3px;}
+
+.page_section_marketing .market_position_col_one .Margin_bottom_7{margin-bottom: 7px;}
+
+
+/* 
+marketing page checkbox css */
+
+
+.market_position_row .marketposition_chkb {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.market_position_row .marketposition_chkb input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.market_position_row .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  border-radius: 4px;
+  margin-top: 0;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.market_position_row .marketposition_chkb input:checked ~ .checkmark {
+  background-color: #001c55;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.market_position_row .market_position_row .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.market_position_row .marketposition_chkb input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.market_position_row .marketposition_chkb .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.Dialog-content input[type=text]:focus {
+  box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+  border: 1px solid rgb(0 28 85);
+  border-radius: 4px;
+}
+
+
+.page_section_products .Table-cell
+     {
+       box-shadow: 0 -1px #e3e8ee, inset 0 -1px #e3e8ee;
+     }
+
+
+
+
+/* The Modal Add products */
+.modal_add_products {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 99999;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal_manage_products_link
+{  
+  
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 99999;
+}
+
+
+
+/* add products product info list */
+
+
+.marketposition_chkb {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.marketposition_chkb input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  border-radius: 4px;
+  margin-top: 0;
+}
+
+
+
+/* When the checkbox is checked, add a blue background */
+.marketposition_chkb input:checked ~ .checkmark {
+  background-color: #001c55;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.marketposition_chkb input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.marketposition_chkb .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.modal_add_products .partners_table {width: 95%; margin-bottom: 11%;}
+.modal_add_products .partners_table tr {
+  border-width: 1px 0 0 0;
+  border-bottom: 1px solid #ddd;
+  height: 36px;
+}
+
+.modal_add_products .partners_table tr th {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+.modal_add_products input[type=text]:focus {
+  box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+  border: 1px solid rgb(0, 28, 85);
+  border-radius: 4px;
+}
+
+
+/* property connect tab content css */
+
+.toggle .tabs {
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+  box-shadow: inset 0 -1px #e3e8ee;
+}
+.toggle .tabs .tab {
+  float: left;
+  background: white;
+  color: #777777;
+  height: 31px;
+  margin: 4px 1px 0;
+  padding: 0 10px;
+  cursor: pointer;
+  padding-left: 0;
+}
+.toggle .tabs .tab.active {
+  color: #001c55;
+  border-bottom: 2px solid #001c55;
+  padding-left: 0;
+}
+.toggle .panels .panel {
+  padding: 20px 10px;
+  display: none;
+  padding-left: 2px;
+}
+.toggle .panels .panel:first-child {
+  display: block;
+}
+.font-normal{font-weight: normal !important;}
+/* toogle css */
+.current{display: block;}
+.page_section_property_connect ul.tabs{
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+  box-shadow: inset 0 -1px #e3e8ee;
+}
+.page_section_property_connect ul.tabs li{
+ float: left;
+ background: white;
+ color: #777777;
+ height: 31px;
+ margin: 4px 1px 0;
+ cursor: pointer;
+ margin-right: 4px;
+}
+.page_section_property_connect ul.tabs li.current{
+ color: #001c55;
+ border-bottom: 2px solid #001c55;
+}
+.page_section_property_connect .tab-content{
+ padding: 20px 1px;
+ display: none;
+ padding-left: 2px;
+}
+.page_section_property_connect .tab-content.current{
+  display: inherit;
+}
+/* partner toogle css */
+ul.tabs_partners {
+ width: 100%;
+ overflow: hidden;
+ height: 36px;
+ line-height: 36px;
+ box-shadow: inset 0 -1px #e3e8ee;
+}
+ul.tabs_partners  li{
+ float: left;
+ background: white;
+ color: #777777;
+ height: 31px;
+ margin: 4px 1px 0;
+ cursor: pointer;  
+ margin-right: 4px;
+}
+ul.tabs_partners  li.current{
+ color: #001c55;
+ border-bottom: 2px solid #001c55;
+ padding-left: 0;
+}
+.tab-content{
+ padding: 20px 0px;
+ display: none;
+ padding-left: 2px;
+}
+.tab-content.current
+ {
+  display: inherit;
+ }
+/* branding checkbox  css */
+ /* add new user radio button css */
+.brandingchkb {
+ display: block;
+ position: absolute;
+ padding-left: 35px;
+ margin-bottom: 12px;
+ cursor: pointer;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ min-width: 150px;
+ margin: auto;
+  }
+  /* Hide the browser's default radio button */
+.brandingchkb input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  }
+  /* Create a custom radio button */
+/*.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: none;
+  background-color: rgb(255, 255, 255);
+  height: 14px;
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  min-width: 14px;
+  width: 14px;
+  margin-top: -1.38px;
+  transform: translateY(2.1px);
+  }*/
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  /* When the radio button is checked, add a blue background */
+  .brandingchkb input:checked ~ .checkmark {
+    background-color: #001c55;
+    padding: 8px;
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the indicator (dot/circle) when checked */
+  .brandingchkb input:checked ~ .checkmark:after {
+    display: block;
+  }
+  /* Style the indicator (dot/circle) */
+.brandingchkb .checkmark:after {
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+  }
+.message_icon{padding-top: 3px; height: 22px; }
+.message_icon .message_icon_no_effect{height: 20px; width: 20px;}
+.message_icon .img_message{height: 20px; width: 20px;}
+.message_icon .img_message_over{height: 20px; width: 20px; display: none;}
+.message_icon_header:hover  + .img_message_over{display: block;}
+ button.message_icon_header:focus .message_icon .img_message_over { display: block; }
+ button.message_icon_header:focus .message_icon .message_icon_no_effect { display: none; }
+ .Text-fontWeight--normal{font-weight: normal !important;}
+/* 
+ modalpopup submit */
+.modalnew {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 30%);
+  z-index: 9999;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+}
+.overlaynew {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #d0d7de75;
+    background: #d0d7dec2;
+}
+  .textbox_css
+  {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border-color: #dddee2;
+    width: 95%;
+    border-radius: 4px;
+    padding: 9px 4px 2px 17px;
+    font-size: 16px;
+    /* color: black; */
+    margin-top: 14px;
+  }
+  hr.new1 {
+    border-top: 1px solid #a3a8ab;
+    width: 15px;
+    text-align: initial;
+    float: left;
+    padding-left: 1px;
+    margin-left: 7px;
+  }
+.room_mapping .room_mapping_li.current {
+  padding-left: 0px;
+}
+.room_mapping .room_mapping_li{
+  padding-left: 0px;
+}
+.page_section_room_mapping_section_view input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+  border: 1px solid rgb(0 28 85);
+  border-radius: 4px;
+}
+/* rooms mapping css */
+.tabs .tab-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 15px;
+  box-shadow: inset 0 -1px #e3e8ee;
+  margin-bottom: 4%;
+  margin-top: 4%;
+
+}
+.tabs .tab-nav li span {
+    float: left;
+    background: white;
+    color: #777777;
+    height: 31px;
+    margin: 4px 1px 0;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.tabs .tab-nav li:hover > span, .tabs .tab-nav li.active > span {
+  color: #001c55;
+  border-bottom: 2px solid #001c55;
+}
+.tabs .tab {
+  display: none;
+}
+.tabs .tab.active {
+  display: block;
+}
+#aks:hover {
+  content: url('../img/nfo-b.svg');
+  height: 18px;
+  width: 18px;
+}
+.gst_hover_effect_btn a:focus {
+  border: 1px solid #001c55;
+}
+.box-shadow
+  {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  }
+.box-over
+  {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(84 105 212) 0px 0px 0px 2px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+  }
+  .rules_inv nav ul li{pointer-events: all;}
+.business_model #paid input[type=text]:focus {
+    box-shadow: none;
+    border: 2px solid rgb(0 28 85);
+    border-radius: 4px;
+}
+.business_model .rec_bm input[type=text]:focus {
+    box-shadow: none;
+    border: 2px solid rgb(0 28 85);
+    border-radius: 4px;
+}
+.business_model #paid_manage input[type=text]:focus {
+  box-shadow: none;
+  border: 2px solid rgb(0 28 85);
+  border-radius: 4px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.page_section_interact .navigation img
+ {
+  height: 18px;
+  width: 18px;
+ }
+
+/* css for chat left menu imahe color chane on active */
+#chatdivleft li{pointer-events: all;}
+.hover_img_e{display: none;}
+.b-nav-tab.active .hover_img_e{display: block;}
+.b-nav-tab.active img{display: none;}
+.ai-person-container {
+  display: block;
+  overflow: auto;
+}
+.chat-section .active {
+  display: block;
+  opacity: 1;
+}
+.list-group-item:hover .dropdown_list_chat_toogle_body{display: none;}
+.dropdown_list_chat_toogle_body{position: absolute; display: none;  right: 0;  top: 61px;}
+a:hover + .dropdown_list_chat_toogle_body { 
+  display: block; 
+} 
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: -150px;
+  transform: translate(0, 10px);
+  background-color: #bfbfbf;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: auto;
+}
+.manage_partner_col input[type="checkbox"]{z-index: 9999; cursor: pointer;}
+
+.borderwhite1{border: 1px solid  white;}
+
+.test_env_toggle_div button:focus {
+  border: 1px solid #001c55;
+}
+.nda button:focus{
+  border: 1px solid #001c55;
+}
+.borderhover:focus{ border: 1px solid #001c55;}
+/* sandbox push notification css start */
+.pc_label{margin-top: 4px; margin-left: 7px;}
+.pc_label.Box-background--draft{background-color: #e3e8ee;}
+.list_tab .Box-background--draft{background-color: #e3e8ee;}
+.pc_label.cs_btn_bg_validate {background-color: #7df19b;}
+.Margin-left--21{margin-left: 21px;}
+.textbox_import {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-color: #dddee2;
+  border-radius: 5px;
+  padding: 0px 17px 0px 17px;
+  border: 1px solid white;
+}
+/* popover on info icon */
+.wrapper {position: relative;display: inline-table;}
+.wrapper .tooltip {
+    background: white;
+    bottom: 100%;
+    color: #64686f;
+    display: block;
+    left: 10px;
+    margin-bottom: 15px;
+    opacity: 0;
+    padding: 14px;
+    pointer-events: none;
+    position: absolute;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 28%);
+    width: 300px;
+    margin-left: -150px;
+}
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.wrapper .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+/* CSS Triangles - see Trevor's post */
+.wrapper .tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid white 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+.wrapper:hover .tooltip {
+   opacity: 1;
+   pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+ transform: translateY(0px);
+}
+/* IE can just show/hide with no transition */
+.lte8 .wrapper .tooltip {
+  display: none;
+}
+.lte8 .wrapper:hover .tooltip {
+  display: block;
+}
+.ping
+  {
+    font-size: 16px;
+    color: #1a1f36;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    white-space: normal;
+    margin-left: 5px;
+  }
+  .graduate_pricing_room_td_edit{
+    border: 1px solid #e0e5e9;
+    text-align: left;
+    padding: 0;
+  }
+  .list_tab .Box-background--live {
+    background-color: #7df19b;
+}
+ .show_shd{display: none;}
+ .alert_box_text{
+    width: 100%; 
+    display: block; 
+    background-color: #f2dede; 
+    color: #d44848; 
+    font-size: 13px;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;;
+  }
+
+  .message_box_text{
+    width: 100%; 
+    display: block; 
+    background-color: #d6ecff; 
+    color: #3d4eac; 
+    font-size: 13px;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;;
+  }
+  .success_box_text{
+    width: 100%; 
+    display: block; 
+    background-color: #dff0d8; 
+    color: #3d4eac; 
+    font-size: 13px;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;;
+  }
+  .shadow_none{box-shadow: none !important;}
+  .db-SplitViewList-row.db-is-selected {
+    background-color: #f7fafc;
+    box-shadow: inset 0 -1px 0 0 #e3e8ee, inset 4px 0 0 0 #001c55;
+    font-weight: 500;
+}
+.page_section_con_logs input[type=text]:focus {
+    box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+    border: 1px solid rgb(0 28 85);
+    border-radius: 4px;
+}
+.popupdatediv
+{
+    position: absolute;
+    z-index: 8;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+    margin-top: 10px;
+    display: none;
+}
+.status_btn_logs_div
+{
+   position: absolute;
+   z-index: 8;
+   overflow: hidden;
+   background: #fff;
+   border-radius: 4px;
+   box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+   margin-top: 10px;
+   display: none;
+}
+.method_log_div
+{
+  position: absolute;
+  z-index: 8;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+  margin-top: 10px;
+  display: none; 
+}
+.api_endpoint
+{
+  position: absolute;
+  z-index: 8;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+   margin-top: 10px;
+  display: none; 
+}
+.mlist{ min-width: 120px; padding: 4px 5px 5px 4px; margin-bottom: 5px; margin-top: 5px;}
+.cold {width: 20%;text-align: end;}
+.page_section_admin_mapping_details .Box-background--set_certification {
+  background-color: #dd00c2;
+}
+.page_section_admin_mapping_details .Box-background--suspended
+{
+    background-color: #001c55;
+}
+/* css for logs date active buttonlist */
+.right_select_date{display: none;}
+.activenewlogs .right_select_date{display: block;}
+.db-is-selected .bold_t{font-weight: bold; color: black;}
+.db-SplitViewList-cell:first-child{padding-left: 0;}
+.db-is-selected .db-SplitViewList-cell:first-child{padding-left: 8px;}
+
+.page_section_admin_manage_certification_scenario input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgb(0 28 85 / 32%);
+  border: 1px solid rgb(0 28 85);
+  border-radius: 4px;
+}
+.a_active{border: 1px solid white;}
+.a_active a:focus {
+  border: 1px solid #001c55;
+}
+.btnm
+{
+  white-space: nowrap;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+  font-feature-settings: "pnum";
+  font-variant: proportional-nums;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3c4257;
+  word-break: normal;
+  background-color: rgb(255, 255, 255);
+  min-height: 28px;
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  pointer-events: all;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.btn_disable
+ {
+   z-index: 10;
+   opacity: .5;
+   pointer-events: all;
+}
+
+.btn_blue_r
+{
+    color: white;
+    background-color: #001c55;
+    height: 28px;
+    margin-left: 45px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    padding: 1px 9px 1px 9px;
+}
+
+.btn_reddelete_r
+{
+    background-color: #d23966;
+    color: white;
+    height: 28px;
+    margin-left: 45px;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    padding: 1px 9px 1px 9px;
+}
+
+
+.btn_blue_r:focus
+{
+  color: #fdfdfd;
+  background-color: #dacff7;color: #fdfdfd;
+  background-color: #dacff7;
+}
+
+.btn_reddelete_r:focus
+{
+  background-color: #da9daf;
+}
+.answer{display:none;}
+
+
+.date_head{
+  padding: 7px 15px 5px 9px;
+  margin-top: 4px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+}
+
+.cal_div_footer{padding: 4px 4px 6px 10px;}
+.footer_date
+{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    height: 18px;
+    border: 1px solid #d4d2d2;
+    width: 100%;
+    padding: 0px;
+    height: 30px;
+    line-height: 23px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.cal_div .ui-widget-content {border: none;}
+.cal_div .ui-widget.ui-widget-content{border: none;}
+.calender_div
+    {
+    position: absolute;
+    z-index: 99;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+    }
+
+
+.cal_divone .ui-widget-content {border: none;}
+.cal_divone .ui-widget.ui-widget-content{border: none;}
+.calender_divone
+    {
+    position: absolute;
+    z-index: 99;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+    }
+
+
+    .cal_divtwo .ui-widget-content {border: none;}
+.cal_divtwo .ui-widget.ui-widget-content{border: none;}
+.calender_divtwo
+    {
+    position: absolute;
+    z-index: 99;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+    }
+
+
+
+    .btn_cal_f
+    {background-color: #8a8c94;
+        color: white;
+        font-size: 13px;
+        padding: 2px 3px 3px 4px;
+        background-color: rgb(84, 105, 212);
+        box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+        outline: none;
+        font-weight: 500;
+        border-radius: 4px;
+        border: 0;
+        outline: 0;}
+        .cal_div #ui-datepicker-div
+        {
+            position: static !important;
+        }
+
+        .cal_divone #ui-datepicker-div
+        {
+            position: static !important;
+        }
+
+        .cal_divtwo #ui-datepicker-div
+        {
+            position: static !important;
+        }
+
+
+
+        /* dropdown reporting connect css */
+
+
+        
+
+/** Custom Select **/
+
+
+/** Custom Select **/
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+}
+  .custom-select-wrapper select {
+    display: none;
+  }
+  .custom-select {
+    position: relative;
+    display: inline-block;
+  }
+    .custom-select-trigger {
+      position: relative;
+      display: block;
+      padding: 2px 21px 2px 8px;
+      font-size: 12px;
+      font-weight: 300;
+      color: black;
+      line-height: 20px;
+      background: #ffffff;
+      border-radius: 6px 0px 0px 6px;
+      cursor: pointer;
+      font-weight: normal;
+      border: 1px solid #d6d2d2;
+    }
+      .custom-select-trigger:after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 5px;
+        height: 5px;
+        top: 56%;
+        right: 7px;
+        margin-top: -2px;
+        border-bottom: 1px solid #0e0e0e;
+        border-right: 1px solid #131212;
+        transform: rotate(45deg) translateY(-50%);
+        transition: all .4s ease-in-out;
+        transform-origin: 49% 0;
+      }
+      .custom-select.opened .custom-select-trigger:after {
+        margin-top: 3px;
+        transform: rotate(-135deg) translateY(-50%);
+      }
+  .custom-options {
+    position: absolute;
+    display: block;
+    top: 100%; left: 0; right: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0,0,0,.07);
+    background: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 0 1px rgb(136 152 170 / 10%), 0 15px 35px 0 rgb(49 49 93 / 10%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+  }
+  .custom-select.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+    .custom-options:before {
+      position: absolute;
+      display: block;
+      content: '';
+      bottom: 100%; right: 39px;
+      width: 7px; height: 7px;
+      margin-bottom: -4px;
+      border-top: 1px solid #b5b5b5;
+      border-left: 1px solid #b5b5b5;
+      background: #fff;
+      transform: rotate(45deg);
+      transition: all .4s ease-in-out;
+    }
+    .option-hover:before {
+      background: #f9f9f9;
+    }
+    .custom-option {
+      position: relative;
+      display: block;
+      padding: 0 9px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #0e0e0e;
+      line-height: 28px;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      font-weight: normal;
+    }
+    .custom-option:first-of-type {
+      border-radius: 4px 4px 0 0;
+    }
+    .custom-option:last-of-type {
+      border-bottom: 0;
+      border-radius: 0 0 4px 4px;
+    }
+    .custom-option:hover,
+    .custom-option.selection {
+      background: #f9f9f9;
+    }
+
+
+    .canvasjs-chart-canvas{width: 100%; display: block;}
+   
+    canvas {
+      border: 1px dotted red;
+    }
+    
+    .chart-container {
+      position: relative;
+      margin: auto;
+      height: 80vh;
+      width: 80vw;
+    }
+    
+#chart {
+  max-width: 100%;
+  margin: 35px auto;
+  opacity: 0.9;
+  margin-left: -21px;
+}
+
+#timeline-chart .apexcharts-toolbar {
+  opacity: 1;
+  border: 0;
+}
+
+
+.apexcharts-legend{display:none !important;}
+.apexcharts-toolbar{display: none !important;}
+
+.border_line_gray{
+    border-bottom: 1px solid #eaedf2;}
+
+    .border_line_gray_top{border-top: 1px solid #eaedf2;}
+
+    .db-BillingCustomerList .Table-row:hover{background-color: #f7fafc;}
+
+.sblue-btn{
+  background-color: #d6ecff;
+  color: #3c4257;
+}
+
+/**Custom Css**/
+
+.paddrl-25{
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+.scrolly{
+overflow-y: scroll;
+display: block;
+max-height: 200px;
+width: 100%;
+
+}
+.taby-head{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.td1-wit{
+  width: 0%;
+  padding-left: 6px;
+}
+
+.td2-wit{
+  width: 3%;
+
+}
+
+.td3-wit{
+  width: 15%;
+
+}
+.Box-rootwit{
+
+  width: 81%;
+
+
+}
+.conthead-wit{
+width: 18%;
+
+}
+
+ 

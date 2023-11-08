@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* color: #3c4257;
+    font-size: 14px;
+    font-weight: 400; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+:root {
+    /*Paydocker color*/
+    /* --theme: #263B7E;  */
+    /*Bakuun Extranet color*/
+    --theme: #001c55;    
+    /*HM color*/
+    /* --theme: #EB2188;     */
+    /*RD color*/
+    /* --theme: #7545FF;     */
+}
+
+.postIconOpenAnima , .bottomBtn{
+    display: none !important;
+}
+.vas-menu{
+    background-color: #f7fafc !important;
+}
+/*---new change---*/
+.bkpdhmrd{
+    min-width: 1024px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.bkpdhmrd_left{
+    box-sizing: border-box;
+    width: 270px;
+    padding: 13px 12px 20px 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.bkpdhmrd_right{
+    position: relative;
+    margin-left: auto;
+    padding-left: 270px;
+    height: 100vh;
+    max-width: 1690px;
+}
+
+.bkpdhmrd_rightbar{
+    position: relative;
+    z-index: unset;
+    min-height: 100%;
+    background: #fff;
+}
+
+.bkpdhmrd_topContent{
+    width: calc(100vw - 270px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 1px #e3e8ee;
+    max-width: 1420px;
+    min-width: 816px;
+    height: 56px;
+    left: 270px;
+}
+
+.bkpdhmrd_cname{
+    color: rgb(26, 31, 54);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1111;
+    cursor: pointer;
+    padding: 0 12px 0 20px;
+}
+
+.bkpdhmrd_cname_svg{
+    position: relative;
+    right: 3px;
+    top: 5px;
+}
+
+.bkpdhmrd_navbar{
+    margin: 0 auto;
+    padding: 14px 40px 14px 28px;
+    max-width: 1420px;
+    height: 56px;
+}
+
+.bkpdhmrd_navbar_main{
+    display: flex;
+    position: absolute;
+    right: 4%;
+}
+
+.leftbar .vas-menu.white-theme.ltr{
+    border-right: none;
+}
+
+.leftbar .vas-menu{
+    padding: 13px 12px 20px 10px;
+}
+
+.bkpdhmrd .leftbar .menu-item-base .labelName{
+    padding-left: 12px;
+}
+
+.bkpdhmrd .leftbar .menu-item-base .items-container .labelName{
+    padding-left: 0;
+}
+
+.bkpdhmrd .leftbar .vas-simple {
+    line-height: 19px;
+}
+
+.bkpdhmrd .menu-item-base .label{
+    height: 29px;
+}
+
+.bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .labelName, 
+.bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .menu-icon{
+    color: #3c4257;
+}
+
+.bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .menu-icon{
+    width: 13px;
+}
+
+.bkpdhmrd_rsection{
+    margin: 0 auto;
+    padding: 20px 10px 48px 0;
+    max-width: 1420px;
+    position: relative;
+}
+
+
+/*------------Customised Color Codes----------------*/
+.bkpdhmrd .leftbar .menu-item-base .labelName:hover, .bkpdhmrd .leftbar .menu-item-base .labelName:active,
+.bkpdhmrd .leftbar .menu-item-base .labelName:visited, .bkpdhmrd .leftbar .menu-item-base .labelName:focus,
+.vas-menu.white-theme .label.miniActive .labelName, .vas-menu.white-theme .label.miniActive .menu-icon{
+    color: var(--theme) !important;
+}
+
+.bkpdhmrd .activeClass span{
+    font-weight: 400;
+    color: var(--theme) !important;;
+}
+
+.bkpdhmrd .vas-simple .menu-icon {
+    font-size: 13px;
+}
+
+.partner_tab, .provider_tab{
+    position: relative;
+}
+
+.vas-simple .label{
+    font-size: 14px;
+}
+
+.bkpdhmrd_navbar_svg{
+    position: relative;
+    top: 5px;
+}
