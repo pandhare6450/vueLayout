@@ -3,8 +3,9 @@
     class="PressableCore PressableCore--cursor--pointer PressableCore--height--medium PressableCore--radius--all PressableCore--width PressableCore--width--auto PressableButton Button Button--color--white Box-root Flex-inlineFlex" style="margin:5px">
     <div class="PressableCore-base Box-root">
       <button @click.prevent="sendData"
+        :type="type"
         v-bind:class="['UnstyledLink Button-element PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--pointer PressableContext--display--inlineFlex PressableContext--fontLineHeight--20 PressableContext--fontSize--14 PressableContext--fontWeight--medium PressableContext--height PressableContext--height--medium PressableContext--radius--all PressableContext--width PressableContext--width--auto', { 'active-class': isActive }]"
-        :disabled="disabled" type="submit" style="color: rgb(255, 255, 255);">
+        :disabled="disabled" style="color: rgb(255, 255, 255);">
         <div class="Button-align Box-root Flex-flex Flex-alignItems--baseline Flex-direction--row"
           style="position: relative;">
           <div class="TextAligner Box-root" style="line-height: 20px; font-size: 14px; flex: 0 0 auto;"></div>
@@ -31,6 +32,14 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  type: {
+    type: String,
+    default: 'button',
+  },
+  id: {
+    type: String,
+    default: null,
+  },
   isActive: {
     type: Boolean,
     default: false,
@@ -39,7 +48,7 @@ const props = defineProps({
 import { getCurrentInstance, ref } from 'vue';
 const emit = defineEmits(['saveClick',])
 const sendData = () => {
-  emit('saveClick', 'newClick')
+  emit('saveClick', props.id??'')
 }
 const instance = getCurrentInstance();
 const globalColor = ref(instance.appContext.config.globalProperties.$globalColorVariable);

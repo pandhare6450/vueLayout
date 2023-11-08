@@ -11,6 +11,7 @@ import _ from 'lodash';
 import { defineAsyncComponent } from 'vue';
 const colorBtn = defineAsyncComponent(() => import('@components/BaseComponents/colorBtn.vue'))
 const plainBtn = defineAsyncComponent(() => import('@components/BaseComponents/plainBtn.vue'))
+const receivable = defineAsyncComponent(() => import('@components/BaseComponents/receivable.vue'))
 const app = createApp(App);
   app.use(router);
   app.use(vueAwesomeSidebar);
@@ -18,6 +19,7 @@ const app = createApp(App);
   app
   .component('colorBtn', colorBtn)
   .component('plainBtn', plainBtn)
+  .component('receivable', receivable)
 
   app.config.globalProperties.$globalColorVariable = '#7545FF'
 

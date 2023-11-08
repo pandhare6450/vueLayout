@@ -28,16 +28,16 @@
     name: 'Accounts',
     icon: {element: 'img', attributes:{'src': imgUrl('accounts-g')}, class: '' },
     children: [
-      {name: 'Company', href: '/company', icon: BeakerIcon,},
-      {name: 'Property', href: '/property'},
+      {name: 'Profile', href: '/profile', icon: BeakerIcon,},
+      {name: 'Form', href: '/form'},
     ],
   },
   {
     name: 'Setting',
     icon: {element: 'img', attributes:{'src': imgUrl('setting-n')}, class: '' },
     children: [
-      {name: 'Account', href: '/account', icon: BeakerIcon,},
-      {name: 'Team', href: '/team'},
+      {name: 'Button', href: '/buttondemo', icon: BeakerIcon,},
+      {name: 'Tab', href: '/tab'},
       {name: 'Terms', href: '/terms'},
     ],
   }

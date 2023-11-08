@@ -1,0 +1,12 @@
+<template>
+  <div>
+    <span
+      class="Badge-text Text-color--blue600 Text-color--blue600 Text-fontSize--12 Text-fontWeight--medium Text-lineHeight--16 Text-numericSpacing--proportional Text-typeface--base Text-wrap--noWrap Text-display--inline"><span>Receivable</span></span>
+  </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped></style>

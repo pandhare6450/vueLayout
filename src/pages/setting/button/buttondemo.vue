@@ -1,9 +1,12 @@
 <template>
   <div>
     <h1>{{ content }}</h1>
-    <colorBtn name="Hello" :disabled="false" @saveClick="saveChildData" />
+    <colorBtn name="Hello" id="23"  :disabled="false" @saveClick="saveChildData" />
+    <colorBtn name="Hello"   :disabled="false" @saveClick="saveChildData" />
 
-    <plainBtn name="Cancel" :disabled="true" @saveClick="saveChildData"/>
+    <plainBtn name="Cancel" id="25" :disabled="true" @saveClick="saveChildData"/>
+
+    <receivable/>
     <hr>
     <div class="alert alert-danger mt-3" v-if="danger">
       Volume is grate than usual limit...
