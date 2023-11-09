@@ -15,6 +15,7 @@ const receivable = defineAsyncComponent(() => import('@components/BaseComponents
 const payable = defineAsyncComponent(() => import('@components/BaseComponents/payable.vue'))
 const payment = defineAsyncComponent(() => import('@components/BaseComponents/payment.vue'))
 const dispute = defineAsyncComponent(() => import('@components/BaseComponents/dispute.vue'))
+const checkbox = defineAsyncComponent(() => import('@components/BaseComponents/checkbox.vue'))
 const app = createApp(App);
   app.use(router);
   app.use(vueAwesomeSidebar);
@@ -26,6 +27,7 @@ const app = createApp(App);
   .component('payable', payable)
   .component('payment', payment)
   .component('dispute', dispute)
+  .component('checkbox', checkbox)
 
   app.config.globalProperties.$globalColorVariable = '#754555'
 

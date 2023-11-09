@@ -30,6 +30,7 @@
     children: [
       {name: 'Profile', href: '/profile', icon: BeakerIcon,},
       {name: 'Form', href: '/form'},
+      {name: 'Slot', href: '/slot'},
     ],
   },
   {
