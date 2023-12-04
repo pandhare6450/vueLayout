@@ -8,6 +8,9 @@
         :type="type"
         v-bind:class="['UnstyledLink Button-element PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--pointer PressableContext--display--inlineFlex PressableContext--fontLineHeight--20 PressableContext--fontSize--14 PressableContext--fontWeight--medium PressableContext--height PressableContext--height--medium PressableContext--radius--all PressableContext--width PressableContext--width--auto', { 'active-class': isActive }]"
         style="color:rgb(255, 255, 255);">
+        <div style="padding: 0px 4px;">
+          <slot/>
+          </div>
         <div class="Button-align Box-root Flex-flex Flex-alignItems--baseline Flex-direction--row"
           style="position: relative;">
           <div class="TextAligner Box-root" style="line-height: 20px; font-size: 14px; flex: 0 0 auto;"></div>

@@ -8,6 +8,7 @@ const buttondemo= defineAsyncComponent(() => import('./pages/setting/button/butt
 const tab= defineAsyncComponent(() => import('./pages/setting/team/home.vue'))
 const terms= defineAsyncComponent(() => import('./pages/setting/terms/terms.vue'))
 const slot= defineAsyncComponent(() => import('./pages/accounts/slot/slot.vue'))
+const filter= defineAsyncComponent(() => import('./pages/accounts/filter/filter.vue'))
 
 const routes = [
   {path : '/profile', name : 'profile', component : profile},
@@ -16,6 +17,7 @@ const routes = [
   {path : '/terms', name : 'Terms', component : terms},
   {path : '/form', name : 'Form', component : form},
   {path : '/slot', name : 'Slot', component : slot},
+  {path : '/filter', name : 'Filter', component : filter},
 
 ];
 
