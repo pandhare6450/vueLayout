@@ -1,6 +1,13 @@
 <template>
   <div>
-    {{ filterData }}
+    <div>
+      {{ filterData }}
+      {{ date }}
+    </div>
+
+    <div style="float: left;width:200px">
+      <VueDatePicker v-model="date" />
+    </div>
     <div style="float:right;">
       <div class="Box-root Flex-flex">
         <div class="Box-root Flex-flex Flex-direction--row Flex-justifyContent--flexStart Flex-wrap--nowrap"
@@ -23,7 +30,7 @@
           </div>
         </div>
       </div>
-      <filterDiv v-if="isFilterShow"/>
+      <filterDiv  v-if="isFilterShow" v-model="isFilterShow" />
     </div>
   </div>
 </template>
@@ -36,10 +43,13 @@ const filterData = ref({})
 const handleClickOnFilter = () =>  isFilterShow.value = false
 
 provide('handleClickOnFilter',handleClickOnFilter)
-
 const fetchFilterQuery = data =>{
   isFilterShow.value = false
   filterData.value = data
 }
 provide('fetchFilterQuery',fetchFilterQuery)
+const date = ref();
+
+
+
 </script>

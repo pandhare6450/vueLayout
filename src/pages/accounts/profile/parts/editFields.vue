@@ -27,6 +27,7 @@
                   <div class="PressableCore-base Box-root">
                     <input autocomplete="email" aria-invalid="false"  placeholder=""
                       type="text" :value="modelValue" @input="$emit('update:modelValue' , $event.target.value)"
+                      :disabled="disabled"
                       class="teamEmail Input Input--nowrap PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--text PressableContext--display--inlineFlex PressableContext--fontLineHeight--20 PressableContext--fontSize--14 PressableContext--fontWeight--regular PressableContext--height PressableContext--height--medium PressableContext--radius--all PressableContext--width PressableContext--width--long TextInput-element TextInput-element--align--left PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--text PressableContext--display--inlineFlex PressableContext--fontLineHeight--20 PressableContext--fontSize--14 PressableContext--fontWeight--regular PressableContext--height PressableContext--height--medium PressableContext--radius--all PressableContext--width PressableContext--width--long"
                       style="color: rgb(60, 66, 87);" required="">
                   </div>
@@ -48,6 +49,10 @@ import { defineProps, reactive } from "vue";
 const props = defineProps({
   name: String,
   error: String,
+  disabled:{
+    type:Boolean,
+    default:false
+  },
   modelValue:String
 });
 </script>

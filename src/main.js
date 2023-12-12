@@ -9,6 +9,8 @@ import App from './App.vue'
 import router from './router'
 import _ from 'lodash';
 import { defineAsyncComponent } from 'vue';
+import VueDatePicker from '@vuepic/vue-datepicker';
+import '@vuepic/vue-datepicker/dist/main.css'
 const colorBtn = defineAsyncComponent(() => import('@components/BaseComponents/colorBtn.vue'))
 const plainBtn = defineAsyncComponent(() => import('@components/BaseComponents/plainBtn.vue'))
 const receivable = defineAsyncComponent(() => import('@components/BaseComponents/receivable.vue'))
@@ -28,6 +30,8 @@ const app = createApp(App);
   .component('payment', payment)
   .component('dispute', dispute)
   .component('checkbox', checkbox)
+  .component('VueDatePicker', VueDatePicker);
+
 
   app.config.globalProperties.$globalColorVariable = '#754555'
 

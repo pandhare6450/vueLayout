@@ -1,7 +1,7 @@
 <template>
   <div
     class="ContextualLayer-layer--topright ContextualLayer-layer--anytop ContextualLayer-layer--anyright ContextualLayer-context--anyright ContextualLayer-context--bottomright ContextualLayer-context--anybottom ContextualLayer-container ContextualLayer--pointerEvents"
-    id="filterDivComponent" style="position: absolute; right: 14px; top: 55px;">
+    style="position: absolute; right: 14px; top: 75px;" ref="filterModalRef">
     <div class="ContextualPopover-animate ContextualPopover-animate-entered" role="dialog">
       <div class="ContextualPopover">
         <div class="ContextualPopover-contents">
@@ -35,7 +35,6 @@
                       <option value="Service">Service</option>
                     </select>
                   </filterCompoSelect>
-
                   <filterCompoSelect name="Status">
                     <select :class="staticClass" v-model="filterData.status" style="color: rgb(60, 66, 87);">
                       <option value="0">Select Status </option>
@@ -46,7 +45,6 @@
                       <option value="Disputed">Dispute</option>
                     </select>
                   </filterCompoSelect>
-
                   <filterCompoSelect name="Source">
                     <select :class="staticClass" v-model="filterData.source" style="color: rgb(60, 66, 87);">
                       <option value="0">Select Source </option>
@@ -54,7 +52,6 @@
                       <option value="Manual">Manual</option>
                     </select>
                   </filterCompoSelect>
-
                   <filterCompoInp name="Token ID">
                     <input aria-invalid="false" type="text" autocomplete="off" :class="staticInputClass"
                       v-model="filterData.token_id" style="color: rgb(60, 66, 87);">
@@ -74,14 +71,21 @@
 </template>
 
 <script setup>
-
 import { ref, inject, reactive, defineAsyncComponent } from 'vue'
-const filterCompoSelect = defineAsyncComponent(() => import('./filterCompoSelect.vue'))
-const filterCompoInp = defineAsyncComponent(() => import('./filterCompoInp.vue'))
 
-const handleClickOnFilter = inject('handleClickOnFilter')
+const filterCompoSelect = defineAsyncComponent(() => import('./filterCompoSelect.vue'))
+
+const filterCompoInp = defineAsyncComponent(() => import('./filterCompoInp.vue'))
+import { onClickOutside } from '@vueuse/core';
+const dateFromTo = defineAsyncComponent(() => import('./dateFromTo.vue'))
+const emits = defineEmits(['update:modelValue']);
+const filterModalRef = ref(null)
 const fetchFilterQuery = inject('fetchFilterQuery')
-const filterHTML = document.getElementById('filterDivComponent')
+const closeModal = () => {
+    emits('update:modelValue', false);
+  };
+onClickOutside(filterModalRef,closeModal);
+
 const initialState = reactive({
   category: 0,
   status: 0,
@@ -92,9 +96,9 @@ const initialState = reactive({
 const filterData =({...initialState})
 const handleClick = method => {
   if(method == 'clear')  Object.assign(filterData, initialState);
-  console.log({filterData});
   fetchFilterQuery(filterData)
 }
+
 const staticClass = 'Select-element PressableContext Padding-right--24 Padding-left--8 Padding-vertical--4 PressableContext--cursor--pointer PressableContext--display--inlineFlex PressableContext--fontLineHeight--16 PressableContext--fontSize--13 PressableContext--fontWeight--medium PressableContext--height PressableContext--height--small PressableContext--radius--all PressableContext--width PressableContext--width--maximized'
 const staticInputClass = 'Input Input--nowrap PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--text PressableContext--display--inlineFlex PressableContext--fontLineHeight--16 PressableContext--fontSize--13 PressableContext--fontWeight--regular PressableContext--height PressableContext--height--small PressableContext--radius--all PressableContext--width PressableContext--width--maximized TextInput-element--align--left PressableContext Padding-horizontal--8 Padding-vertical--4 PressableContext--cursor--text PressableContext--display--inlineFlex PressableContext--fontLineHeight--16 PressableContext--fontSize--13 PressableContext--fontWeight--regular PressableContext--height PressableContext--height--small PressableContext--radius--all PressableContext--width PressableContext--width--maximized'
 </script>
