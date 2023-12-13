@@ -28,15 +28,15 @@
                   </div>
                 </div>
                 <div>
-                  <filterCompoSelect name="Category">
+                  <filterCompoSelect name="Category" :isOffShow="isOffShow">
                     <select :class="staticClass" v-model="filterData.category" style="color: rgb(60, 66, 87);">
                       <option value="0">Select Category </option>
                       <option value="Booking">Booking </option>
                       <option value="Service">Service</option>
                     </select>
                   </filterCompoSelect>
-                  <filterCompoSelect name="Status">
-                    <select :class="staticClass" v-model="filterData.status" style="color: rgb(60, 66, 87);">
+                  <filterCompoSelect name="Status" :isOffShow="isOffShow" >
+                    <select :class="staticClass"  v-model="filterData.status" style="color: rgb(60, 66, 87);">
                       <option value="0">Select Status </option>
                       <option value="Freeze">Freezed </option>
                       <option value="Draft">Draft </option>
@@ -45,20 +45,20 @@
                       <option value="Disputed">Dispute</option>
                     </select>
                   </filterCompoSelect>
-                  <filterCompoSelect name="Source">
+                  <filterCompoSelect name="Source" :isOffShow="isOffShow">
                     <select :class="staticClass" v-model="filterData.source" style="color: rgb(60, 66, 87);">
                       <option value="0">Select Source </option>
                       <option value="API">API </option>
                       <option value="Manual">Manual</option>
                     </select>
                   </filterCompoSelect>
-                  <filterCompoInp name="Token ID">
+                  <filterCompoInp name="Token ID" :isOffShow="isOffShow">
                     <input aria-invalid="false" type="text" autocomplete="off" :class="staticInputClass"
                       v-model="filterData.token_id" style="color: rgb(60, 66, 87);">
                   </filterCompoInp>
-                  <filterCompoInp name="Amount">
+                  <filterCompoInp name="Amount" :isOffShow="isOffShow">
                     <input aria-invalid="false" type="text" autocomplete="off" :class="staticInputClass"
-                      v-model="filterData.amount" style="color: rgb(60, 66, 87);">
+                      v-model="filterData.amount"  style="color: rgb(60, 66, 87);">
                   </filterCompoInp>
                 </div>
               </form>
@@ -80,12 +80,11 @@ import { onClickOutside } from '@vueuse/core';
 const dateFromTo = defineAsyncComponent(() => import('./dateFromTo.vue'))
 const emits = defineEmits(['update:modelValue']);
 const filterModalRef = ref(null)
-const fetchFilterQuery = inject('fetchFilterQuery')
-const closeModal = () => {
-    emits('update:modelValue', false);
-  };
-onClickOutside(filterModalRef,closeModal);
 
+const isOffShow =ref(true)
+const fetchFilterQuery = inject('fetchFilterQuery')
+const closeModal = () => {   emits('update:modelValue', false);  };
+onClickOutside(filterModalRef,closeModal);
 const initialState = reactive({
   category: 0,
   status: 0,
@@ -95,7 +94,10 @@ const initialState = reactive({
 })
 const filterData =({...initialState})
 const handleClick = method => {
-  if(method == 'clear')  Object.assign(filterData, initialState);
+  if(method == 'clear')  {
+    Object.assign(filterData, initialState);
+    isOffShow.value = !isOffShow.value
+  }
   fetchFilterQuery(filterData)
 }
 

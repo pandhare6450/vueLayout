@@ -2,10 +2,10 @@
   <div class="filter_tab">
     <div class="Box-root Box-divider--light-bottom-1 Padding-all--8" style="padding: 5px 5px 10px 9px;;">
       <label>
-        <input type="checkbox" @click="handelClick"  /> {{ name }}
+        <input type="checkbox" @click="handelClick"  ref="ischecked" /> {{ name }}
       </label>
     </div>
-    <div v-if="isShow" class="category divFiltTk" style="display: flex;">
+    <div v-if="isShow"  style="display: flex;">
       <div class="Box-root Box-background--gray50 Box-divider--light-bottom-1 Margin-top--0 Padding-all--12"
         style="max-height: 400px; overflow: hidden; transition: max-height 0.3s ease 0s, padding 0.3s ease 0s;">
         <span
@@ -41,11 +41,16 @@ const props = defineProps({
   name: {
     type: String,
     required: true,
+  },
+  isOffShow: {
+    type: Boolean,
+    required: true
   }
 });
-import { ref} from 'vue'
+import { ref,toRefs,watch} from 'vue'
 const isShow= ref(false)
-
+const ischecked = ref(false)
+const manageShow = toRefs(props).isOffShow
 const handelClick = e => isShow.value = e.target.checked
-
+watch(manageShow, (val) =>  isShow.value = ischecked.value.checked = false)
 </script>

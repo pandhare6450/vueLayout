@@ -1,7 +1,7 @@
 <template>
   <div class="filter_tab">
     <div class="Box-root Box-divider--light-bottom-1 Padding-all--8" style="padding: 5px 5px 10px 9px;">
-      <label> <input type="checkbox" autocomplete="off"  @click="handelClick" > {{ name }}
+      <label> <input type="checkbox" autocomplete="off" ref="ischecked" @click="handelClick"> {{ name }}
       </label>
     </div>
     <div v-if="isShow" style="display: flex;">
@@ -15,11 +15,11 @@
             <div class="Box-root Padding-left--8" style="flex-grow: 1;">
               <span>
                 <div
-                  class="PressableCore PressableCore--cursor--text PressableCore--height--small PressableCore--radius--all PressableCore--width PressableCore--width--maximized PressableField TextInput Box-root Flex-inlineFlex"
+                  class="PressableCore PressableCore--cursor--text PressableCore--height--small PressableCore--radius--all PressableCore--width PressableCore--width--maximized PressableField  Box-root Flex-inlineFlex"
                   style=" background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
                                     ">
                   <div class="PressableCore-base Box-root">
-                    <slot/>
+                    <slot />
                   </div>
                 </div>
               </span>
@@ -36,11 +36,21 @@ const props = defineProps({
   name: {
     type: String,
     required: true,
+  },
+  isOffShow: {
+    type: Boolean,
+    required: true
   }
 });
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
+import { toRefs } from '@vueuse/core';
 const isShow = ref(false)
-
+const ischecked = ref(false)
+const manageShow = toRefs(props).isOffShow
 const handelClick = e => isShow.value = e.target.checked
 
+watch(manageShow, (val) => isShow.value = ischecked.value.checked = false)
+
 </script>
+
+

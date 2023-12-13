@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <filterDiv  v-if="isFilterShow" v-model="isFilterShow" />
+      <filterDiv  v-show="isFilterShow" v-model="isFilterShow" />
     </div>
   </div>
 </template>
