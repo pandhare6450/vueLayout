@@ -19,8 +19,8 @@
   let permission = reactive({})
 
   setTimeout(()=>{
-    permission.Accounts = [0,2,1]
-    permission.Setting = [0,1,2,3]
+    permission.Accounts = []
+    permission.Setting = [1]
     // isTeam.value = false
   },3000)
 

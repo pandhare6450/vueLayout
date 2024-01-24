@@ -27,6 +27,10 @@
     <hr>
     <checkbox v-model="checkBtn" label="Click Me"/>
     <checkbox v-model="checkBtn" label="Click Me"/>
+
+    <div class="Box-root togglebtn">
+      <input class="native-hidden switchbtn"  type="checkbox" value="1" >
+    </div>
   </div>
 </template>
 <script setup>

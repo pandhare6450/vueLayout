@@ -180,3 +180,33 @@ body{
     position: relative;
     top: 5px;
 }
+
+
+.togglebtn input[type="checkbox"]{
+    content: url('../assets/svg/iconfinder-deactive.svg');
+    background-color: transparent !important;
+    height: 27px;
+    width: 21px;
+    position:relative;
+    top: -4px;
+    cursor: pointer;
+}
+.togglebtn input[type="checkbox"]:checked{
+    content: url('../assets/svg/iconfinder-icon.svg');
+    background-color: transparent !important;
+    height: 27px;
+    width: 21px;
+    position:relative;
+    top: 10px;
+}
+.togglebtn input[type="checkbox"]:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.togglebtn .native-hidden{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent !important;
+    border: none;
+}
