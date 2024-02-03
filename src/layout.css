@@ -15,11 +15,22 @@ body{
     /*Paydocker color*/
     /* --theme: #263B7E;  */
     /*Bakuun Extranet color*/
-    --theme: #001c55;    
+    --theme: #001c55;
     /*HM color*/
     /* --theme: #EB2188;     */
     /*RD color*/
     /* --theme: #7545FF;     */
+}
+
+.boxshadow{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    margin:5px
+}
+
+.boxshadowinput{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 }
 
 .postIconOpenAnima , .bottomBtn{
@@ -124,7 +135,7 @@ body{
     height: 29px;
 }
 
-.bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .labelName, 
+.bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .labelName,
 .bkpdhmrd .bkpdhmrd_left .vas-menu.white-theme .label .menu-icon{
     color: #3c4257;
 }
@@ -168,4 +179,34 @@ body{
 .bkpdhmrd_navbar_svg{
     position: relative;
     top: 5px;
+}
+
+
+.togglebtn input[type="checkbox"]{
+    content: url('../assets/svg/iconfinder-deactive.svg');
+    background-color: transparent !important;
+    height: 27px;
+    width: 21px;
+    position:relative;
+    top: -4px;
+    cursor: pointer;
+}
+.togglebtn input[type="checkbox"]:checked{
+    content: url('../assets/svg/iconfinder-icon.svg');
+    background-color: transparent !important;
+    height: 27px;
+    width: 21px;
+    position:relative;
+    top: 10px;
+}
+.togglebtn input[type="checkbox"]:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.togglebtn .native-hidden{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent !important;
+    border: none;
 }

@@ -9,6 +9,7 @@
         <Tab title="Terms"><Terms/></Tab>
         <Tab title="Tax"><Tax/></Tab>
         <Tab title="Submit"><Submit/></Tab>
+        <Tab title="Submit2"><Submit/></Tab>
       </Tabwrapper>
   </div>
 </template>
