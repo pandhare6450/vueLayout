@@ -21,7 +21,6 @@ const checkbox = defineAsyncComponent(() => import('@components/BaseComponents/c
 const app = createApp(App);
   app.use(router);
   app.use(vueAwesomeSidebar);
-
   app
   .component('colorBtn', colorBtn)
   .component('plainBtn', plainBtn)
